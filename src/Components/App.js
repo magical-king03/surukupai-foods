@@ -1,9 +1,9 @@
 import Nav from './Nav'
 import { Route, Routes } from 'react-router-dom';
-import Home from './Home'
-import About from './About'
-import Store from './Store'
-import Contact from './Contact'
+import Home from '../pages/Home'
+import About from '../pages/About'
+import Store from '../pages/Store'
+import Contact from '../pages/Contact'
 import Footer from './Footer'
 
 function App() {

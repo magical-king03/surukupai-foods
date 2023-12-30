@@ -2,6 +2,7 @@ import React from "react";
 import SF from '../img/surukupaifoods.png'
 
 const Contact = () => {
+    document.title = 'Contact';
     return (
         <div className="grid md:grid-cols-2">
             <div className='p-4 items-center justify-center mb-10'>
