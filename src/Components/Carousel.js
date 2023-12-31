@@ -33,7 +33,7 @@ const Carousel = () => {
         {images.map((image, index) => (
           <div key={index} className="w-full flex-shrink-0">
             <a href={image.a}>
-            <img src={image.p} className="w-full h-full object-cover rounded-lg" />
+            <img src={image.p} className="w-full h-full object-cover" />
             </a>
           </div>
         ))}

@@ -2,9 +2,26 @@ import Carousel from "../Components/Carousel"
 import img1 from '../img/E (1).png'
 import img2 from '../img/E.png'
 import { Link } from "react-router-dom"
+import backgroundImage from '../img/HomeBG.png'
 
 const Home = () => {
     document.title = 'Surukupai Foods';
+
+    const containerStyle = {
+        position: 'relative',
+        backgroundImage: `url(${backgroundImage})`,
+        backgroundSize: 'cover',
+        backgroundRepeat: 'no-repeat',
+        
+      };
+      const overlayStyle = {
+        position: 'absolute',
+        top: 0,
+        left: 0,
+        width: '100%',
+        height: '100%',
+        backgroundColor: 'rgba(0, 0, 0, 0.6)',
+      };
     return (
         <div>
             <Carousel />
@@ -32,11 +49,10 @@ const Home = () => {
                 <div className="lg:grid-cols-2 lg:grid hidden">
                     <div className="flex items-center justify-center">
                     <div className="p-5">
-                        <p className="text-5xl font-bold">Tumeric Powder</p>
+                        <p className="text-5xl font-bold">Surukupai's Tumeric</p>
                         <div className="m-4 p-4 leading-8 text-[22px] flex items-center justify-center">
                             <ul style={{ listStyleType: 'disc' }} >
-                                <li className="mb-3">Pepper and normal tea specifically designed for cooking purposes are offered.</li>
-                                <li className="mb-3">Available in convenient quantities of 100g and 250g.</li>
+                                <li className="mb-3">Pepper and edible tumeric powder specifically designed for cooking purposes are offered.</li>
                                 <li className="mb-3">Herbal wild and wild turmeric are formulated for facial use, catering to skincare needs and offered in a practical 100g variant.</li>
                                 <li className="mb-3">The availability of different quantity options (100g and 250g) provides flexibility for users based on their preferences and needs.</li>
                                 <li className="mb-3">The products serve dual purposes, addressing both culinary and skincare requirements.</li>
@@ -56,11 +72,10 @@ const Home = () => {
                     </div>
                     <div className="flex items-center justify-center">
                     <div className="p-5">
-                        <p className="text-5xl font-bold">Tumeric Powder</p>
+                        <p className="text-5xl font-bold">Surukupai's Tumeric</p>
                         <div className="m-4 p-4 leading-8 text-[22px] flex items-center justify-center">
                             <ul style={{ listStyleType: 'disc' }} >
-                                <li className="mb-3">Pepper and normal tea specifically designed for cooking purposes are offered.</li>
-                                <li className="mb-3">Available in convenient quantities of 100g and 250g.</li>
+                                <li className="mb-3">Pepper and edible tumeric powder specifically designed for cooking purposes are offered.</li>
                                 <li className="mb-3">Herbal wild and wild turmeric are formulated for facial use, catering to skincare needs and offered in a practical 100g variant.</li>
                                 <li className="mb-3">The availability of different quantity options (100g and 250g) provides flexibility for users based on their preferences and needs.</li>
                                 <li className="mb-3">The products serve dual purposes, addressing both culinary and skincare requirements.</li>
@@ -72,14 +87,20 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <div className="bg-black text-white p-[30px] md:h-[400px] lg:h-[300px]">
-                <div className="">
+            <div className="text-white">
+                <div className="p-[30px]" style={containerStyle}>
+                    <div style={overlayStyle}></div>
+                    <div style={{ position: 'relative', zIndex: 1 }}>
+
+                    
+
                     <p className="text-3xl font-bold text-center p-6">FOR BULK ORDERS AND PERSONALIZED RETURN GIFTS</p>
                     <div className="leading-loose text-center text-xl">
                         <p>We are ready to take the bulk orders and also, we do personalized return gifts for occasions in prior order basis.</p>
                         <p>For orders Contact +91 80569 64784</p>
                         <p>You can also place the order through our Whatsapp or social media handles (i.e., LinkedIn, Instagram)</p>
-                    </div>
+                    </div></div>
+                
                 </div>
 
             </div>

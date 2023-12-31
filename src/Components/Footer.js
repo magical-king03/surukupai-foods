@@ -53,8 +53,7 @@ const Footer = () => {
                     </div>
                     <div>
                         <div className='text-white lg:text-xl m-5'>
-                            <a href='#' target='blank' className='mr-1'>surukupaifoods@gmail.com</a>
-
+                            <a href='mailto:surukupaifoods@gmail.com' target='blank' className='mr-1'>surukupaifoods@gmail.com</a>
                         </div>
                     </div>
                 </div>

@@ -23,43 +23,47 @@ function Store() {
     }
     return (
         <div>
-            <h1 className="text-5xl p-6 font-semibold">Our Products</h1>
+            <h1 className="text-5xl p-6 font-semibold text-center">Our Products</h1>
 
-            <div className="mt-10 mb-10">
-                <div className="relative">
-                    <img src={B1} alt="Banner 1" className="h-[250px] w-full" />
+            <div className="">
+                <div className="relative px-[10px] py-[20px] md:py-[50px] lg:p-[100px]">
+                    <div className="relative">
+
+                    
+                    <img src={B2} alt="Banner 1" className="rounded-lg" />
                     {
-                        banner1 ?
+                        banner2 ?
 
-                            <div className="absolute bottom-0 right-0 mr-[50px] mb-[20px]">
-                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAADZklEQVR4nO2aTUtVURSGn6JPyz7oO2/QH0izaTpo3MTsN0QlNG6UNmyepok/QNFZBIUlRd+YoWQZiQUh6sBEiQZidmLDEi6Xe889e699rvvGeeGdXM5ea73r7rP32utsyJAhQ4YMGTIokAOagEtAG9ABdAJDwAjwXjgNzABzwBKwAkTCFfltTp6Zzhs3IrY6xXab+GoS35uCs0APsJAnYrNoYugGGiohfB/QB6wHILyQJqZeoDYt8aeAjwEILceJNF6NWjEcVQk/Aft9JqAvAFG2NK+DtwVvPQBBtjQx1/tIQE8AYlzZ5SMBCwEIceW8VnwuABFa1mkS0ByAAC1NxeiMywEI0LJVk4C2AARoeU2TgNsBCNCyXZOAewEI0PKuJgFDAQjQckCTgGcBCNDS9BOc8dbS2RtgNUUxq+LDNiZnTFg4egrsBM6nVD0uAheA7cAji3EfNAn4ktDJaEEjIiftLF/izR9xOs9+DfDa4mjsjG8JHPwFGouM3QMMehA/KLYK0Si+y403PUZnzCUMcrpEzb0FuOl4nDbi7gBbi9g9BnxOaGdWk4Ali4C/AidL2LlY0AUux18xJexRmdY2a4czflv+a2bNOFHC1pmEr9QP4FyM+EnLmEwynfHHYepOAcdL2DsEPIkZ+0JEFsMRx6bsWqUTEMmqfbiEzW3ybheOuS9bXDEcBMYcY1mr5CsQ5XFc/vFSuCKFjQnwRsxzB2SbdY1D9Qr8VDiOpBYwAuIaLs1lxGvricVKbINRDMdkCrt8hbItxb1vg989BLBRjxtBSWEKn+eefM9UohSOEvBVwu92NZ5PoapSeNxjIIYvgb1lxI949qk6DL3zHMzGXl+stt8tJ0rf/syhKbiGyLAIzhc/HGJDZDCloAwfA7uAHcCDFP30axLQlWJghg+FwTZFO1IOrhK8pUnA9QAEaHlVk4DWAARoaW6UOaMpAAFamiatM3IBCNjUz+PVfkHCHObU6A5AiCvN7VI1Gqr4kpTpQ3pBbwCCbGlmrjfUpnAyTJOTlv2HxDtCNdwWHfex8sfNhN5A14R1mfZx/QZvqJfbI/OBbHVdPhc8W9RJxdgiF5La5QQ2IGf8UensTkl/blY+uS3niViW32blmSkZMyo2BsRmu/hoEZ+pTfUMGTJkyJCB/x//AOLbSKZkyn6XAAAAAElFTkSuQmCC" className="cursor-pointer" onClick={changeB1} />
+                            <div className="absolute bottom-0 right-0 mr-[20px] mb-[10px]">
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAADZklEQVR4nO2aTUtVURSGn6JPyz7oO2/QH0izaTpo3MTsN0QlNG6UNmyepok/QNFZBIUlRd+YoWQZiQUh6sBEiQZidmLDEi6Xe889e699rvvGeeGdXM5ea73r7rP32utsyJAhQ4YMGTIokAOagEtAG9ABdAJDwAjwXjgNzABzwBKwAkTCFfltTp6Zzhs3IrY6xXab+GoS35uCs0APsJAnYrNoYugGGiohfB/QB6wHILyQJqZeoDYt8aeAjwEILceJNF6NWjEcVQk/Aft9JqAvAFG2NK+DtwVvPQBBtjQx1/tIQE8AYlzZ5SMBCwEIceW8VnwuABFa1mkS0ByAAC1NxeiMywEI0LJVk4C2AARoeU2TgNsBCNCyXZOAewEI0PKuJgFDAQjQckCTgGcBCNDS9BOc8dbS2RtgNUUxq+LDNiZnTFg4egrsBM6nVD0uAheA7cAji3EfNAn4ktDJaEEjIiftLF/izR9xOs9+DfDa4mjsjG8JHPwFGouM3QMMehA/KLYK0Si+y403PUZnzCUMcrpEzb0FuOl4nDbi7gBbi9g9BnxOaGdWk4Ali4C/AidL2LlY0AUux18xJexRmdY2a4czflv+a2bNOFHC1pmEr9QP4FyM+EnLmEwynfHHYepOAcdL2DsEPIkZ+0JEFsMRx6bsWqUTEMmqfbiEzW3ybheOuS9bXDEcBMYcY1mr5CsQ5XFc/vFSuCKFjQnwRsxzB2SbdY1D9Qr8VDiOpBYwAuIaLs1lxGvricVKbINRDMdkCrt8hbItxb1vg989BLBRjxtBSWEKn+eefM9UohSOEvBVwu92NZ5PoapSeNxjIIYvgb1lxI949qk6DL3zHMzGXl+stt8tJ0rf/syhKbiGyLAIzhc/HGJDZDCloAwfA7uAHcCDFP30axLQlWJghg+FwTZFO1IOrhK8pUnA9QAEaHlVk4DWAARoaW6UOaMpAAFamiatM3IBCNjUz+PVfkHCHObU6A5AiCvN7VI1Gqr4kpTpQ3pBbwCCbGlmrjfUpnAyTJOTlv2HxDtCNdwWHfex8sfNhN5A14R1mfZx/QZvqJfbI/OBbHVdPhc8W9RJxdgiF5La5QQ2IGf8UensTkl/blY+uS3niViW32blmSkZMyo2BsRmu/hoEZ+pTfUMGTJkyJCB/x//AOLbSKZkyn6XAAAAAElFTkSuQmCC" className="cursor-pointer h-[25px] w-[25px] md:w-[50px] md:h-[50px]" onClick={changeB2} />
                             </div>
                             :
-                            <div className="absolute bottom-0 right-0 mr-[50px] mb-[20px]">
-                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAADVklEQVR4nO2aTUuUURTHf0WvlqX0nhP0BdJsmy1atzH7DFEJrVulLVuXpokfINFdBJUlvZoxFkqakmgQYi5KlGghZhMXjiCDzzjPPfc+cyeeP/w3w3PPOf8z9/XcCylSpEiRIkUKBTJAA3ARaAZagTagDxgAhoVTwDQwBywAS0BOuCS/zck3U+vaDYitNrHdLL4axHdJcBroBObXiSgVTQwdQF0SwvcB3cBqAMLzaWLqAip9iT8BfApA6GYc9TE0KsVwrkw4Dux3mYDuAETFpRkOzia81QAExaWJudZFAjoDEGPLdhcJmA9AiC2/a8VnAhChZY0mAecCEKCl2TFa41IAArRs0iSgOQABWl7VJOBWAAK0bNEkoN1zcI+EPn2YU6Q1+jwG9gTYBewAHnr006NJwAtPQT0V8WvYDfR78mXqCdZ47yGgV8CeDXyZJDz34G9Qk4BRx8G8AfYW8Fch/5hLnx81CZh0GMjbIosVFY6HnjkaW+Orw24Yp1JjhshLR75NjdEacw4C+ABUW5bfhhz4n9Uk4KfSeRao2uSsYRiFKqkMa2L4oUnAb4XjEeBAAduXgWVgBbi+SRKyijh+aRLwx9KpWT0ORtjcBtzeoM19YHtEm2oZSjaxrCSdgAngaIQ90yOeFWj7Gjgc0faQZVV6JckhMAkci7B1CpgpwsY34EyEDZOcsSSHwEIMR1+A4xF2LuRdhRUTdFOBJIwnNQnOFelkKqL0tAW4YVlV/itzxdYN7B4BPiexDM4UGWh9xGam10J4Pnsjzg714tvrRmiyyCCzeTu9jIP1O39VOZm3XR5MYis8EiNIc4jZCZz1VEo3Y/m81A8eJ3UYGooZ5DvZ3OQ8cVl8xI0puIJILkGqCiK9AQjQ8kHIRdFcAryjSUBrAAK0vKlJwLUABGh5RZOApgAEaGlelFmjIQABWpp9iTUyAQgo6fV4uT+QMIc5NToCEFKSe8E11JXxIylThHGCrgAExaXpuc5QGfNkWGqOyb2CU2TK5LXoiIuZv1BP6Ap0TliVbl/o8tUZaoF78g4vhKWu3eWEFxc1smNslAdJ5k3OXXmZ0S/lsmG5L5iWIqWpNi+uE7Eov83KNxPSJis2esRmi/hoFJ/eunqKFClSpEjB/49/l3pIoX36BroAAAAASUVORK5CYII=" className="cursor-pointer" onClick={changeB1} />
+                            <div className="absolute bottom-0 right-0 mr-[20px] mb-[10px]">
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAADVklEQVR4nO2aTUuUURTHf0WvlqX0nhP0BdJsmy1atzH7DFEJrVulLVuXpokfINFdBJUlvZoxFkqakmgQYi5KlGghZhMXjiCDzzjPPfc+cyeeP/w3w3PPOf8z9/XcCylSpEiRIkUKBTJAA3ARaAZagTagDxgAhoVTwDQwBywAS0BOuCS/zck3U+vaDYitNrHdLL4axHdJcBroBObXiSgVTQwdQF0SwvcB3cBqAMLzaWLqAip9iT8BfApA6GYc9TE0KsVwrkw4Dux3mYDuAETFpRkOzia81QAExaWJudZFAjoDEGPLdhcJmA9AiC2/a8VnAhChZY0mAecCEKCl2TFa41IAArRs0iSgOQABWl7VJOBWAAK0bNEkoN1zcI+EPn2YU6Q1+jwG9gTYBewAHnr006NJwAtPQT0V8WvYDfR78mXqCdZ47yGgV8CeDXyZJDz34G9Qk4BRx8G8AfYW8Fch/5hLnx81CZh0GMjbIosVFY6HnjkaW+Orw24Yp1JjhshLR75NjdEacw4C+ABUW5bfhhz4n9Uk4KfSeRao2uSsYRiFKqkMa2L4oUnAb4XjEeBAAduXgWVgBbi+SRKyijh+aRLwx9KpWT0ORtjcBtzeoM19YHtEm2oZSjaxrCSdgAngaIQ90yOeFWj7Gjgc0faQZVV6JckhMAkci7B1CpgpwsY34EyEDZOcsSSHwEIMR1+A4xF2LuRdhRUTdFOBJIwnNQnOFelkKqL0tAW4YVlV/itzxdYN7B4BPiexDM4UGWh9xGam10J4Pnsjzg714tvrRmiyyCCzeTu9jIP1O39VOZm3XR5MYis8EiNIc4jZCZz1VEo3Y/m81A8eJ3UYGooZ5DvZ3OQ8cVl8xI0puIJILkGqCiK9AQjQ8kHIRdFcAryjSUBrAAK0vKlJwLUABGh5RZOApgAEaGlelFmjIQABWpp9iTUyAQgo6fV4uT+QMIc5NToCEFKSe8E11JXxIylThHGCrgAExaXpuc5QGfNkWGqOyb2CU2TK5LXoiIuZv1BP6Ap0TliVbl/o8tUZaoF78g4vhKWu3eWEFxc1smNslAdJ5k3OXXmZ0S/lsmG5L5iWIqWpNi+uE7Eov83KNxPSJis2esRmi/hoFJ/eunqKFClSpEjB/49/l3pIoX36BroAAAAASUVORK5CYII=" className="cursor-pointer w-[25px] h-[25px] md:w-[50px] md:h-[50px]" onClick={changeB2} />
                             </div>
                     }
+                    </div>
                 </div>
                 {
-                    !banner1 ?
+                    !banner2 ?
                         <div className="transition-transform delay-500 duration-1000">
-                            <div className="mt-[30px] flex flex-cols items-center flex-wrap justify-center gap-[30px] my-5 py-5">
-                                <div className="grid md:grid-cols-2 gap-10">
+                            <div className="flex flex-cols items-center flex-wrap justify-center gap-[30px]">
+                                <div className="grid grid-cols-2 md:gap-10">
                                     <a href='#' target="_blank">
-                                        <div className="lg:w-[500px] md:[400px] ">
+                                        <div className="lg:w-[500px] md:[400px] p-3">
                                             <img src={P3} alt='Tumeric powder 1' className="rounded-lg" />
-                                            <div className="flex items-center justify-between p-5">
-                                                <h2 className="text-xl font-bold">Tumeric powder(100g)</h2>
-                                                <p className="text-xl font-semibold">Price: 100</p>
+                                            <div className="p-5">
+                                                <h2 className="md:text-3xl font-bold">Tumeric powder(100g)</h2>
+                                                <p className="md:text-2xl font-semibold">Price: ₹100</p>
                                             </div>
                                         </div>
                                     </a>
                                     <a href='#' target="_blank">
-                                        <div className=" lg:w-[500px] md:[400px] ">
+                                        <div className=" lg:w-[500px] md:[400px] p-3">
                                             <img src={P4} alt="Tumeric powder 2" className="rounded-lg" />
-                                            <div className="flex items-center justify-between p-5">
-                                                <h2 className="text-xl font-bold">Tumeric powder(250g)</h2>
-                                                <p className="text-xl font-semibold">Price: 250</p>
+                                            <div className="p-5">
+                                                <h2 className="md:text-3xl font-bold">Tumeric powder(250g)</h2>
+                                                <p className="md:text-2xl font-semibold">Price: ₹250</p>
                                             </div>
                                         </div>
                                     </a>
@@ -91,23 +95,25 @@ function Store() {
                 }
             </div>
 
-            <div className="mt-10 ">
-                <div className="relative">
-                    <img src={B2} alt="Banner 2" className="h-[250px] w-full" />
+            <div className="">
+                <div className="relative px-[10px] py-[20px] md:py-[50px] lg:p-[100px]">
+                    <div className="relative">
+                    <img src={B1} alt="Banner 2" className="rounded-lg" />
                     {
-                        banner2 ?
+                        banner1 ?
 
-                            <div className="absolute bottom-0 right-0 mr-[50px] mb-[20px]">
-                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAADZklEQVR4nO2aTUtVURSGn6JPyz7oO2/QH0izaTpo3MTsN0QlNG6UNmyepok/QNFZBIUlRd+YoWQZiQUh6sBEiQZidmLDEi6Xe889e699rvvGeeGdXM5ea73r7rP32utsyJAhQ4YMGTIokAOagEtAG9ABdAJDwAjwXjgNzABzwBKwAkTCFfltTp6Zzhs3IrY6xXab+GoS35uCs0APsJAnYrNoYugGGiohfB/QB6wHILyQJqZeoDYt8aeAjwEILceJNF6NWjEcVQk/Aft9JqAvAFG2NK+DtwVvPQBBtjQx1/tIQE8AYlzZ5SMBCwEIceW8VnwuABFa1mkS0ByAAC1NxeiMywEI0LJVk4C2AARoeU2TgNsBCNCyXZOAewEI0PKuJgFDAQjQckCTgGcBCNDS9BOc8dbS2RtgNUUxq+LDNiZnTFg4egrsBM6nVD0uAheA7cAji3EfNAn4ktDJaEEjIiftLF/izR9xOs9+DfDa4mjsjG8JHPwFGouM3QMMehA/KLYK0Si+y403PUZnzCUMcrpEzb0FuOl4nDbi7gBbi9g9BnxOaGdWk4Ali4C/AidL2LlY0AUux18xJexRmdY2a4czflv+a2bNOFHC1pmEr9QP4FyM+EnLmEwynfHHYepOAcdL2DsEPIkZ+0JEFsMRx6bsWqUTEMmqfbiEzW3ybheOuS9bXDEcBMYcY1mr5CsQ5XFc/vFSuCKFjQnwRsxzB2SbdY1D9Qr8VDiOpBYwAuIaLs1lxGvricVKbINRDMdkCrt8hbItxb1vg989BLBRjxtBSWEKn+eefM9UohSOEvBVwu92NZ5PoapSeNxjIIYvgb1lxI949qk6DL3zHMzGXl+stt8tJ0rf/syhKbiGyLAIzhc/HGJDZDCloAwfA7uAHcCDFP30axLQlWJghg+FwTZFO1IOrhK8pUnA9QAEaHlVk4DWAARoaW6UOaMpAAFamiatM3IBCNjUz+PVfkHCHObU6A5AiCvN7VI1Gqr4kpTpQ3pBbwCCbGlmrjfUpnAyTJOTlv2HxDtCNdwWHfex8sfNhN5A14R1mfZx/QZvqJfbI/OBbHVdPhc8W9RJxdgiF5La5QQ2IGf8UensTkl/blY+uS3niViW32blmSkZMyo2BsRmu/hoEZ+pTfUMGTJkyJCB/x//AOLbSKZkyn6XAAAAAElFTkSuQmCC" className="cursor-pointer" onClick={changeB2} />
+                            <div className="absolute bottom-0 right-0 mr-[20px] mb-[10px]">
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAADZklEQVR4nO2aTUtVURSGn6JPyz7oO2/QH0izaTpo3MTsN0QlNG6UNmyepok/QNFZBIUlRd+YoWQZiQUh6sBEiQZidmLDEi6Xe889e699rvvGeeGdXM5ea73r7rP32utsyJAhQ4YMGTIokAOagEtAG9ABdAJDwAjwXjgNzABzwBKwAkTCFfltTp6Zzhs3IrY6xXab+GoS35uCs0APsJAnYrNoYugGGiohfB/QB6wHILyQJqZeoDYt8aeAjwEILceJNF6NWjEcVQk/Aft9JqAvAFG2NK+DtwVvPQBBtjQx1/tIQE8AYlzZ5SMBCwEIceW8VnwuABFa1mkS0ByAAC1NxeiMywEI0LJVk4C2AARoeU2TgNsBCNCyXZOAewEI0PKuJgFDAQjQckCTgGcBCNDS9BOc8dbS2RtgNUUxq+LDNiZnTFg4egrsBM6nVD0uAheA7cAji3EfNAn4ktDJaEEjIiftLF/izR9xOs9+DfDa4mjsjG8JHPwFGouM3QMMehA/KLYK0Si+y403PUZnzCUMcrpEzb0FuOl4nDbi7gBbi9g9BnxOaGdWk4Ali4C/AidL2LlY0AUux18xJexRmdY2a4czflv+a2bNOFHC1pmEr9QP4FyM+EnLmEwynfHHYepOAcdL2DsEPIkZ+0JEFsMRx6bsWqUTEMmqfbiEzW3ybheOuS9bXDEcBMYcY1mr5CsQ5XFc/vFSuCKFjQnwRsxzB2SbdY1D9Qr8VDiOpBYwAuIaLs1lxGvricVKbINRDMdkCrt8hbItxb1vg989BLBRjxtBSWEKn+eefM9UohSOEvBVwu92NZ5PoapSeNxjIIYvgb1lxI949qk6DL3zHMzGXl+stt8tJ0rf/syhKbiGyLAIzhc/HGJDZDCloAwfA7uAHcCDFP30axLQlWJghg+FwTZFO1IOrhK8pUnA9QAEaHlVk4DWAARoaW6UOaMpAAFamiatM3IBCNjUz+PVfkHCHObU6A5AiCvN7VI1Gqr4kpTpQ3pBbwCCbGlmrjfUpnAyTJOTlv2HxDtCNdwWHfex8sfNhN5A14R1mfZx/QZvqJfbI/OBbHVdPhc8W9RJxdgiF5La5QQ2IGf8UensTkl/blY+uS3niViW32blmSkZMyo2BsRmu/hoEZ+pTfUMGTJkyJCB/x//AOLbSKZkyn6XAAAAAElFTkSuQmCC" className="cursor-pointer w-[25px] h-[25px] md:w-[50px] md:md:h-[50px]" onClick={changeB1} />
                             </div>
                             :
-                            <div className="absolute bottom-0 right-0 mr-[50px] mb-[20px]">
-                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAADVklEQVR4nO2aTUuUURTHf0WvlqX0nhP0BdJsmy1atzH7DFEJrVulLVuXpokfINFdBJUlvZoxFkqakmgQYi5KlGghZhMXjiCDzzjPPfc+cyeeP/w3w3PPOf8z9/XcCylSpEiRIkUKBTJAA3ARaAZagTagDxgAhoVTwDQwBywAS0BOuCS/zck3U+vaDYitNrHdLL4axHdJcBroBObXiSgVTQwdQF0SwvcB3cBqAMLzaWLqAip9iT8BfApA6GYc9TE0KsVwrkw4Dux3mYDuAETFpRkOzia81QAExaWJudZFAjoDEGPLdhcJmA9AiC2/a8VnAhChZY0mAecCEKCl2TFa41IAArRs0iSgOQABWl7VJOBWAAK0bNEkoN1zcI+EPn2YU6Q1+jwG9gTYBewAHnr006NJwAtPQT0V8WvYDfR78mXqCdZ47yGgV8CeDXyZJDz34G9Qk4BRx8G8AfYW8Fch/5hLnx81CZh0GMjbIosVFY6HnjkaW+Orw24Yp1JjhshLR75NjdEacw4C+ABUW5bfhhz4n9Uk4KfSeRao2uSsYRiFKqkMa2L4oUnAb4XjEeBAAduXgWVgBbi+SRKyijh+aRLwx9KpWT0ORtjcBtzeoM19YHtEm2oZSjaxrCSdgAngaIQ90yOeFWj7Gjgc0faQZVV6JckhMAkci7B1CpgpwsY34EyEDZOcsSSHwEIMR1+A4xF2LuRdhRUTdFOBJIwnNQnOFelkKqL0tAW4YVlV/itzxdYN7B4BPiexDM4UGWh9xGam10J4Pnsjzg714tvrRmiyyCCzeTu9jIP1O39VOZm3XR5MYis8EiNIc4jZCZz1VEo3Y/m81A8eJ3UYGooZ5DvZ3OQ8cVl8xI0puIJILkGqCiK9AQjQ8kHIRdFcAryjSUBrAAK0vKlJwLUABGh5RZOApgAEaGlelFmjIQABWpp9iTUyAQgo6fV4uT+QMIc5NToCEFKSe8E11JXxIylThHGCrgAExaXpuc5QGfNkWGqOyb2CU2TK5LXoiIuZv1BP6Ap0TliVbl/o8tUZaoF78g4vhKWu3eWEFxc1smNslAdJ5k3OXXmZ0S/lsmG5L5iWIqWpNi+uE7Eov83KNxPSJis2esRmi/hoFJ/eunqKFClSpEjB/49/l3pIoX36BroAAAAASUVORK5CYII=" className="cursor-pointer" onClick={changeB2} />
+                            <div className="absolute bottom-0 right-0 mr-[20px] mb-[10px]">
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAADVklEQVR4nO2aTUuUURTHf0WvlqX0nhP0BdJsmy1atzH7DFEJrVulLVuXpokfINFdBJUlvZoxFkqakmgQYi5KlGghZhMXjiCDzzjPPfc+cyeeP/w3w3PPOf8z9/XcCylSpEiRIkUKBTJAA3ARaAZagTagDxgAhoVTwDQwBywAS0BOuCS/zck3U+vaDYitNrHdLL4axHdJcBroBObXiSgVTQwdQF0SwvcB3cBqAMLzaWLqAip9iT8BfApA6GYc9TE0KsVwrkw4Dux3mYDuAETFpRkOzia81QAExaWJudZFAjoDEGPLdhcJmA9AiC2/a8VnAhChZY0mAecCEKCl2TFa41IAArRs0iSgOQABWl7VJOBWAAK0bNEkoN1zcI+EPn2YU6Q1+jwG9gTYBewAHnr006NJwAtPQT0V8WvYDfR78mXqCdZ47yGgV8CeDXyZJDz34G9Qk4BRx8G8AfYW8Fch/5hLnx81CZh0GMjbIosVFY6HnjkaW+Orw24Yp1JjhshLR75NjdEacw4C+ABUW5bfhhz4n9Uk4KfSeRao2uSsYRiFKqkMa2L4oUnAb4XjEeBAAduXgWVgBbi+SRKyijh+aRLwx9KpWT0ORtjcBtzeoM19YHtEm2oZSjaxrCSdgAngaIQ90yOeFWj7Gjgc0faQZVV6JckhMAkci7B1CpgpwsY34EyEDZOcsSSHwEIMR1+A4xF2LuRdhRUTdFOBJIwnNQnOFelkKqL0tAW4YVlV/itzxdYN7B4BPiexDM4UGWh9xGam10J4Pnsjzg714tvrRmiyyCCzeTu9jIP1O39VOZm3XR5MYis8EiNIc4jZCZz1VEo3Y/m81A8eJ3UYGooZ5DvZ3OQ8cVl8xI0puIJILkGqCiK9AQjQ8kHIRdFcAryjSUBrAAK0vKlJwLUABGh5RZOApgAEaGlelFmjIQABWpp9iTUyAQgo6fV4uT+QMIc5NToCEFKSe8E11JXxIylThHGCrgAExaXpuc5QGfNkWGqOyb2CU2TK5LXoiIuZv1BP6Ap0TliVbl/o8tUZaoF78g4vhKWu3eWEFxc1smNslAdJ5k3OXXmZ0S/lsmG5L5iWIqWpNi+uE7Eov83KNxPSJis2esRmi/hoFJ/eunqKFClSpEjB/49/l3pIoX36BroAAAAASUVORK5CYII=" className="cursor-pointer w-[25px] h-[25px] md:w-[50px] md:h-[50px]" onClick={changeB1} />
                             </div>
                     }
+                    </div>
                 </div>
                 {
-                    !banner2 ?
+                    !banner1 ?
                         <div className="transition-transform delay-500 duration-1000">
                             <div className="mt-[30px] flex flex-cols items-center flex-wrap justify-center gap-[30px] my-5 py-5">
                                 <div className="grid md:grid-cols-2 gap-10">
@@ -136,20 +142,22 @@ function Store() {
                 }
             </div>
 
-            <div className="my-10 ">
-                <div className="relative">
-                    <img src={B3} alt="Banner 3" className="h-[250px] w-full" />
+            <div className="">
+                <div className="relative px-[10px] py-[50px] lg:p-[100px]">
+                    <div className="relative">
+                    <img src={B3} alt="Banner 3" className="rounded-lg" />
                     {
                         banner3 ?
 
-                            <div className="absolute bottom-0 right-0 mr-[50px] mb-[20px]">
-                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAADZklEQVR4nO2aTUtVURSGn6JPyz7oO2/QH0izaTpo3MTsN0QlNG6UNmyepok/QNFZBIUlRd+YoWQZiQUh6sBEiQZidmLDEi6Xe889e699rvvGeeGdXM5ea73r7rP32utsyJAhQ4YMGTIokAOagEtAG9ABdAJDwAjwXjgNzABzwBKwAkTCFfltTp6Zzhs3IrY6xXab+GoS35uCs0APsJAnYrNoYugGGiohfB/QB6wHILyQJqZeoDYt8aeAjwEILceJNF6NWjEcVQk/Aft9JqAvAFG2NK+DtwVvPQBBtjQx1/tIQE8AYlzZ5SMBCwEIceW8VnwuABFa1mkS0ByAAC1NxeiMywEI0LJVk4C2AARoeU2TgNsBCNCyXZOAewEI0PKuJgFDAQjQckCTgGcBCNDS9BOc8dbS2RtgNUUxq+LDNiZnTFg4egrsBM6nVD0uAheA7cAji3EfNAn4ktDJaEEjIiftLF/izR9xOs9+DfDa4mjsjG8JHPwFGouM3QMMehA/KLYK0Si+y403PUZnzCUMcrpEzb0FuOl4nDbi7gBbi9g9BnxOaGdWk4Ali4C/AidL2LlY0AUux18xJexRmdY2a4czflv+a2bNOFHC1pmEr9QP4FyM+EnLmEwynfHHYepOAcdL2DsEPIkZ+0JEFsMRx6bsWqUTEMmqfbiEzW3ybheOuS9bXDEcBMYcY1mr5CsQ5XFc/vFSuCKFjQnwRsxzB2SbdY1D9Qr8VDiOpBYwAuIaLs1lxGvricVKbINRDMdkCrt8hbItxb1vg989BLBRjxtBSWEKn+eefM9UohSOEvBVwu92NZ5PoapSeNxjIIYvgb1lxI949qk6DL3zHMzGXl+stt8tJ0rf/syhKbiGyLAIzhc/HGJDZDCloAwfA7uAHcCDFP30axLQlWJghg+FwTZFO1IOrhK8pUnA9QAEaHlVk4DWAARoaW6UOaMpAAFamiatM3IBCNjUz+PVfkHCHObU6A5AiCvN7VI1Gqr4kpTpQ3pBbwCCbGlmrjfUpnAyTJOTlv2HxDtCNdwWHfex8sfNhN5A14R1mfZx/QZvqJfbI/OBbHVdPhc8W9RJxdgiF5La5QQ2IGf8UensTkl/blY+uS3niViW32blmSkZMyo2BsRmu/hoEZ+pTfUMGTJkyJCB/x//AOLbSKZkyn6XAAAAAElFTkSuQmCC" className="cursor-pointer" onClick={changeB3} />
+                            <div className="absolute bottom-0 right-0 mr-[20px] mb-[10px]">
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAADZklEQVR4nO2aTUtVURSGn6JPyz7oO2/QH0izaTpo3MTsN0QlNG6UNmyepok/QNFZBIUlRd+YoWQZiQUh6sBEiQZidmLDEi6Xe889e699rvvGeeGdXM5ea73r7rP32utsyJAhQ4YMGTIokAOagEtAG9ABdAJDwAjwXjgNzABzwBKwAkTCFfltTp6Zzhs3IrY6xXab+GoS35uCs0APsJAnYrNoYugGGiohfB/QB6wHILyQJqZeoDYt8aeAjwEILceJNF6NWjEcVQk/Aft9JqAvAFG2NK+DtwVvPQBBtjQx1/tIQE8AYlzZ5SMBCwEIceW8VnwuABFa1mkS0ByAAC1NxeiMywEI0LJVk4C2AARoeU2TgNsBCNCyXZOAewEI0PKuJgFDAQjQckCTgGcBCNDS9BOc8dbS2RtgNUUxq+LDNiZnTFg4egrsBM6nVD0uAheA7cAji3EfNAn4ktDJaEEjIiftLF/izR9xOs9+DfDa4mjsjG8JHPwFGouM3QMMehA/KLYK0Si+y403PUZnzCUMcrpEzb0FuOl4nDbi7gBbi9g9BnxOaGdWk4Ali4C/AidL2LlY0AUux18xJexRmdY2a4czflv+a2bNOFHC1pmEr9QP4FyM+EnLmEwynfHHYepOAcdL2DsEPIkZ+0JEFsMRx6bsWqUTEMmqfbiEzW3ybheOuS9bXDEcBMYcY1mr5CsQ5XFc/vFSuCKFjQnwRsxzB2SbdY1D9Qr8VDiOpBYwAuIaLs1lxGvricVKbINRDMdkCrt8hbItxb1vg989BLBRjxtBSWEKn+eefM9UohSOEvBVwu92NZ5PoapSeNxjIIYvgb1lxI949qk6DL3zHMzGXl+stt8tJ0rf/syhKbiGyLAIzhc/HGJDZDCloAwfA7uAHcCDFP30axLQlWJghg+FwTZFO1IOrhK8pUnA9QAEaHlVk4DWAARoaW6UOaMpAAFamiatM3IBCNjUz+PVfkHCHObU6A5AiCvN7VI1Gqr4kpTpQ3pBbwCCbGlmrjfUpnAyTJOTlv2HxDtCNdwWHfex8sfNhN5A14R1mfZx/QZvqJfbI/OBbHVdPhc8W9RJxdgiF5La5QQ2IGf8UensTkl/blY+uS3niViW32blmSkZMyo2BsRmu/hoEZ+pTfUMGTJkyJCB/x//AOLbSKZkyn6XAAAAAElFTkSuQmCC" className="cursor-pointer w-[25px] h-[25px] md:w-[50px] md:h-[50px]" onClick={changeB3} />
                             </div>
                             :
-                            <div className="absolute bottom-0 right-0 mr-[50px] mb-[20px]">
-                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAADVklEQVR4nO2aTUuUURTHf0WvlqX0nhP0BdJsmy1atzH7DFEJrVulLVuXpokfINFdBJUlvZoxFkqakmgQYi5KlGghZhMXjiCDzzjPPfc+cyeeP/w3w3PPOf8z9/XcCylSpEiRIkUKBTJAA3ARaAZagTagDxgAhoVTwDQwBywAS0BOuCS/zck3U+vaDYitNrHdLL4axHdJcBroBObXiSgVTQwdQF0SwvcB3cBqAMLzaWLqAip9iT8BfApA6GYc9TE0KsVwrkw4Dux3mYDuAETFpRkOzia81QAExaWJudZFAjoDEGPLdhcJmA9AiC2/a8VnAhChZY0mAecCEKCl2TFa41IAArRs0iSgOQABWl7VJOBWAAK0bNEkoN1zcI+EPn2YU6Q1+jwG9gTYBewAHnr006NJwAtPQT0V8WvYDfR78mXqCdZ47yGgV8CeDXyZJDz34G9Qk4BRx8G8AfYW8Fch/5hLnx81CZh0GMjbIosVFY6HnjkaW+Orw24Yp1JjhshLR75NjdEacw4C+ABUW5bfhhz4n9Uk4KfSeRao2uSsYRiFKqkMa2L4oUnAb4XjEeBAAduXgWVgBbi+SRKyijh+aRLwx9KpWT0ORtjcBtzeoM19YHtEm2oZSjaxrCSdgAngaIQ90yOeFWj7Gjgc0faQZVV6JckhMAkci7B1CpgpwsY34EyEDZOcsSSHwEIMR1+A4xF2LuRdhRUTdFOBJIwnNQnOFelkKqL0tAW4YVlV/itzxdYN7B4BPiexDM4UGWh9xGam10J4Pnsjzg714tvrRmiyyCCzeTu9jIP1O39VOZm3XR5MYis8EiNIc4jZCZz1VEo3Y/m81A8eJ3UYGooZ5DvZ3OQ8cVl8xI0puIJILkGqCiK9AQjQ8kHIRdFcAryjSUBrAAK0vKlJwLUABGh5RZOApgAEaGlelFmjIQABWpp9iTUyAQgo6fV4uT+QMIc5NToCEFKSe8E11JXxIylThHGCrgAExaXpuc5QGfNkWGqOyb2CU2TK5LXoiIuZv1BP6Ap0TliVbl/o8tUZaoF78g4vhKWu3eWEFxc1smNslAdJ5k3OXXmZ0S/lsmG5L5iWIqWpNi+uE7Eov83KNxPSJis2esRmi/hoFJ/eunqKFClSpEjB/49/l3pIoX36BroAAAAASUVORK5CYII=" className="cursor-pointer" onClick={changeB3} />
+                            <div className="absolute bottom-0 right-0 mr-[20px] mb-[10px]">
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAADVklEQVR4nO2aTUuUURTHf0WvlqX0nhP0BdJsmy1atzH7DFEJrVulLVuXpokfINFdBJUlvZoxFkqakmgQYi5KlGghZhMXjiCDzzjPPfc+cyeeP/w3w3PPOf8z9/XcCylSpEiRIkUKBTJAA3ARaAZagTagDxgAhoVTwDQwBywAS0BOuCS/zck3U+vaDYitNrHdLL4axHdJcBroBObXiSgVTQwdQF0SwvcB3cBqAMLzaWLqAip9iT8BfApA6GYc9TE0KsVwrkw4Dux3mYDuAETFpRkOzia81QAExaWJudZFAjoDEGPLdhcJmA9AiC2/a8VnAhChZY0mAecCEKCl2TFa41IAArRs0iSgOQABWl7VJOBWAAK0bNEkoN1zcI+EPn2YU6Q1+jwG9gTYBewAHnr006NJwAtPQT0V8WvYDfR78mXqCdZ47yGgV8CeDXyZJDz34G9Qk4BRx8G8AfYW8Fch/5hLnx81CZh0GMjbIosVFY6HnjkaW+Orw24Yp1JjhshLR75NjdEacw4C+ABUW5bfhhz4n9Uk4KfSeRao2uSsYRiFKqkMa2L4oUnAb4XjEeBAAduXgWVgBbi+SRKyijh+aRLwx9KpWT0ORtjcBtzeoM19YHtEm2oZSjaxrCSdgAngaIQ90yOeFWj7Gjgc0faQZVV6JckhMAkci7B1CpgpwsY34EyEDZOcsSSHwEIMR1+A4xF2LuRdhRUTdFOBJIwnNQnOFelkKqL0tAW4YVlV/itzxdYN7B4BPiexDM4UGWh9xGam10J4Pnsjzg714tvrRmiyyCCzeTu9jIP1O39VOZm3XR5MYis8EiNIc4jZCZz1VEo3Y/m81A8eJ3UYGooZ5DvZ3OQ8cVl8xI0puIJILkGqCiK9AQjQ8kHIRdFcAryjSUBrAAK0vKlJwLUABGh5RZOApgAEaGlelFmjIQABWpp9iTUyAQgo6fV4uT+QMIc5NToCEFKSe8E11JXxIylThHGCrgAExaXpuc5QGfNkWGqOyb2CU2TK5LXoiIuZv1BP6Ap0TliVbl/o8tUZaoF78g4vhKWu3eWEFxc1smNslAdJ5k3OXXmZ0S/lsmG5L5iWIqWpNi+uE7Eov83KNxPSJis2esRmi/hoFJ/eunqKFClSpEjB/49/l3pIoX36BroAAAAASUVORK5CYII=" className="cursor-pointer w-[25px] h-[25px] md:w-[50px] md:h-[50px]" onClick={changeB3} />
                             </div>
                     }
+                    </div>
                 </div>
                 {
                     !banner3 ?
