@@ -27,9 +27,7 @@ function Store() {
 
             <div className="">
                 <div className="relative px-[10px] py-[20px] md:py-[50px] lg:p-[100px]">
-                    <div className="relative">
-
-                    
+                    <div className="relative">                    
                     <img src={B2} alt="Banner 1" className="rounded-lg" />
                     {
                         banner2 ?
@@ -68,22 +66,22 @@ function Store() {
                                         </div>
                                     </a>
                                 </div>
-                                <div className="grid md:grid-cols-2 gap-10">
+                                <div className="grid grid-cols-2 gap-10">
                                     <a href='#' target="_blank">
-                                        <div className=" lg:w-[500px] md:[400px] ">
+                                        <div className=" lg:w-[500px] md:[400px] p-3">
                                             <img src={P3} alt="Tumeric powder 3" className="rounded-lg" />
-                                            <div className="flex items-center justify-between p-5">
-                                                <h2 className="text-xl font-bold">Pepper Tumeric powder</h2>
-                                                <p className="text-xl font-semibold">Price: 150</p>
+                                            <div className="p-5">
+                                                <h2 className="md:text-xl font-bold">Pepper Tumeric powder</h2>
+                                                <p className="md:text-xl font-semibold">Price: 150</p>
                                             </div>
                                         </div>
                                     </a>
                                     <a href='#' target="_blank">
-                                        <div className=" lg:w-[500px] md:[400px] ">
+                                        <div className=" lg:w-[500px] md:[400px] p-3">
                                             <img src={P4} alt="Tumeric powder 4" className="rounded-lg" />
-                                            <div className="flex items-center justify-between p-5">
-                                                <h2 className="text-xl font-bold">Pepper Tumeric powder</h2>
-                                                <p className="text-xl font-semibold">Price: 300</p>
+                                            <div className="p-5">
+                                                <h2 className="md:text-xl font-bold">Pepper Tumeric powder</h2>
+                                                <p className="md:text-xl font-semibold">Price: 300</p>
                                             </div>
                                         </div>
                                     </a>
@@ -115,23 +113,23 @@ function Store() {
                 {
                     !banner1 ?
                         <div className="transition-transform delay-500 duration-1000">
-                            <div className="mt-[30px] flex flex-cols items-center flex-wrap justify-center gap-[30px] my-5 py-5">
-                                <div className="grid md:grid-cols-2 gap-10">
+                            <div className="flex flex-cols items-center flex-wrap justify-center gap-[30px]">
+                                <div className="grid grid-cols-2 gap-10">
                                     <a href='#' target="_blank">
-                                        <div className="lg:w-[500px] md:[400px] ">
+                                        <div className="lg:w-[500px] md:[400px] p-3">
                                             <img src={P2} alt='Wild Tumeric powder' className="rounded-lg" />
-                                            <div className="flex items-center justify-between p-5">
-                                                <h2 className="text-xl font-bold">Wild Tumeric powder</h2>
-                                                <p className="text-xl font-semibold">Price: 200</p>
+                                            <div className="p-5">
+                                                <h2 className="md:text-xl font-bold">Wild Tumeric powder</h2>
+                                                <p className="md:text-xl font-semibold">Price: 200</p>
                                             </div>
                                         </div>
                                     </a>
                                     <a href='#' target="_blank">
-                                        <div className=" lg:w-[500px] md:[400px] ">
+                                        <div className=" lg:w-[500px] md:[400px] p-3">
                                             <img src={P1} alt="Herbal wild Tumeric powder" className="rounded-lg" />
-                                            <div className="flex items-center justify-between p-5">
-                                                <h2 className="text-xl font-bold">Herbal wild Tumeric powder</h2>
-                                                <p className="text-xl font-semibold">Price: 300</p>
+                                            <div className="p-5">
+                                                <h2 className="md:text-xl font-bold">Herbal wild Tumeric powder</h2>
+                                                <p className="md:text-xl font-semibold">Price: 300</p>
                                             </div>
                                         </div>
                                     </a>
@@ -143,7 +141,7 @@ function Store() {
             </div>
 
             <div className="">
-                <div className="relative px-[10px] py-[50px] lg:p-[100px]">
+                <div className="relative px-[10px] py-[20px] md:py-[50px] lg:p-[100px]">
                     <div className="relative">
                     <img src={B3} alt="Banner 3" className="rounded-lg" />
                     {
@@ -162,23 +160,23 @@ function Store() {
                 {
                     !banner3 ?
                         <div className="transition-transform delay-500 duration-1000">
-                            <div className="mt-[30px] flex flex-cols items-center flex-wrap justify-center gap-[30px] my-5 py-5">
-                                <div className="grid md:grid-cols-2 gap-10">
+                            <div className="flex flex-cols items-center flex-wrap justify-center gap-[30px]">
+                                <div className="grid grid-cols-2 gap-10">
                                     <a href='#' target="_blank">
-                                        <div className="lg:w-[500px] md:[400px] ">
+                                        <div className="lg:w-[500px] md:[400px] p-3">
                                             <img src={P2} alt='Wild Tumeric powder' className="rounded-lg" />
-                                            <div className="flex items-center justify-between p-5">
-                                                <h2 className="text-xl font-bold">Wild Tumeric powder</h2>
-                                                <p className="text-xl font-semibold">Price: 200</p>
+                                            <div className="p-5">
+                                                <h2 className="md:text-xl font-bold">Wild Tumeric powder</h2>
+                                                <p className="md:text-xl font-semibold">Price: 200</p>
                                             </div>
                                         </div>
                                     </a>
                                     <a href='#' target="_blank">
-                                        <div className=" lg:w-[500px] md:[400px] ">
+                                        <div className=" lg:w-[500px] md:[400px] p-3">
                                             <img src={P1} alt="Herbal wild Tumeric powder" className="rounded-lg" />
-                                            <div className="flex items-center justify-between p-5">
-                                                <h2 className="text-xl font-bold">Herbal wild Tumeric powder</h2>
-                                                <p className="text-xl font-semibold">Price: 300</p>
+                                            <div className="p-5">
+                                                <h2 className="md:text-xl font-bold">Herbal wild Tumeric powder</h2>
+                                                <p className="md:text-xl font-semibold">Price: 300</p>
                                             </div>
                                         </div>
                                     </a>
