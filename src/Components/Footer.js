@@ -8,10 +8,10 @@ const Footer = () => {
                 <div className='text-white text-center'>
                     {/* <h3 className='text-5xl'>Contact</h3> */}
                     <div className='mt-10'>
-                        <div className='flex items-center justify-center my-2 ml-10'>
+                        <div className='flex items-center justify-center md:my-2 md:ml-10'>
                             <img src={FSSAI} alt='FSSAI Logo' className='w-[150px] ' />
                         </div>
-                        <p className='ml-10 text-3xl'>22421065000079</p>
+                        <p className='md:ml-10 text-3xl'>22421065000079</p>
                     </div>
                 </div>
                 <div className='flex flex-col items-center'>

@@ -9,7 +9,7 @@ const Nav = () => {
   return (
     <div>
       {nav ? <div className='relative z-40'>
-        <div className='flex md:hidden absolute right-0 top-[105px] duration-500 text-[black] bg-[#4F4E4E] min-h-[200px] rounded-l-lg w-[148px] items-center justify-center'>
+        <div className='flex md:hidden absolute right-0 top-[105px] duration-500 text-[black] bg-gray-200 min-h-[200px] rounded-l-lg w-[148px] items-center justify-center'>
             <div className='flex flex-col items-center justify-center  p-4 gap-4'>
             <Link to="/">
             <h1 className='font-semibold' onClick={() => {setNav(!nav)}}>Home</h1></Link>
@@ -23,7 +23,7 @@ const Nav = () => {
         </div>
         
       </div> : <div className='relative'>
-        <div className='flex md:hidden fixed right-[-500px] top-[105px] duration-500 text-[black] bg-[#4F4E4E]] min-h-[200px] rounded-lg w-[150px] items-center justify-center'>
+        <div className='flex md:hidden fixed right-[-500px] top-[105px] duration-500 text-[black] bg-gray-200 min-h-[200px] rounded-lg w-[150px] items-center justify-center'>
             <div className='flex flex-col items-center justify-center p-4 gap-4'>
             <Link to="/">
             <h1 className='font-semibold'>Home</h1></Link>
