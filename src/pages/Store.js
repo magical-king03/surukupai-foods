@@ -75,7 +75,7 @@ function Store() {
                                                 <h2 className="md:text-3xl font-bold mb-3">Tumeric powder(100g)</h2>
                                                 <p className="md:text-2xl font-semibold mb-3">Price: ₹100</p>
                                             </div>
-                                        <a href="/" className="border-none px-5 py-3 text-xl font-semibold bg-black text-white rounded-xl mx-5">Order Now</a>
+                                        <a href="/" className="border-none px-5 py-3 md:text-xl md:font-semibold bg-black text-white rounded-xl mx-5">Order Now</a>
                                         </div>
                                     {/* </a> */}
                                     {/* <a href='#' target="_blank"> */}
@@ -86,7 +86,7 @@ function Store() {
                                                 <h2 className="md:text-3xl font-bold mb-3">Tumeric powder(250g)</h2>
                                                 <p className="md:text-2xl font-semibold mb-3">Price: ₹250</p>
                                             </div>
-                                            <a href="/" className="border-none px-5 py-3 text-xl font-semibold bg-black text-white rounded-xl mx-5">Order Now</a>
+                                            <a href="/" className="border-none px-5 py-3 md:text-xl md:font-semibold bg-black text-white rounded-xl mx-5">Order Now</a>
                                         </div>
                                     {/* </a> */}
                                 </div>
@@ -99,7 +99,7 @@ function Store() {
                                                 <h2 className="md:text-3xl font-bold mb-3">Pepper Tumeric powder</h2>
                                                 <p className="md:text-2xl font-semibold mb-3">Price: ₹150</p>
                                             </div>
-                                            <a href="/" className="border-none px-5 py-3 text-xl font-semibold bg-black text-white rounded-xl mx-5">Order Now</a>
+                                            <a href="/" className="border-none px-5 py-3 md:text-xl md:font-semibold bg-black text-white rounded-xl mx-5">Order Now</a>
                                         </div>
                                     {/* </a> */}
                                     {/* <a href='#' target="_blank"> */}
@@ -110,7 +110,7 @@ function Store() {
                                                 <h2 className="md:text-3xl font-bold mb-3">Pepper Tumeric powder</h2>
                                                 <p className="md:text-2xl font-semibold mb-3">Price: ₹300</p>
                                             </div>
-                                            <a href="/" className="border-none px-5 py-3 text-xl font-semibold bg-black text-white rounded-xl mx-5">Order Now</a>
+                                            <a href="/" className="border-none px-5 py-3 md:text-xl md:font-semibold bg-black text-white rounded-xl mx-5">Order Now</a>
                                         </div>
                                     {/* </a> */}
                                 </div>
@@ -151,7 +151,7 @@ function Store() {
                                                 <h2 className="md:text-3xl font-bold mb-3">Wild Tumeric powder</h2>
                                                 <p className="md:text-2xl font-semibold mb-3">Price: ₹200</p>
                                             </div>
-                                            <a href="/" className="border-none px-5 py-3 text-xl font-semibold bg-black text-white rounded-xl mx-5">Order Now</a>
+                                            <a href="/" className="border-none px-5 py-3 md:text-xl md:font-semibold bg-black text-white rounded-xl mx-5">Order Now</a>
                                         </div>
                                     {/* </a> */}
                                     {/* <a href='#' target="_blank"> */}
@@ -162,7 +162,7 @@ function Store() {
                                                 <h2 className="md:text-3xl font-bold mb-3">Herbal wild Tumeric powder</h2>
                                                 <p className="md:text-2xl font-semibold mb-3">Price: ₹300</p>
                                             </div>
-                                            <a href="/" className="border-none px-5 py-3 text-xl font-semibold bg-black text-white rounded-xl mx-5">Order Now</a>
+                                            <a href="/" className="border-none px-5 py-3 md:text-xl md:font-semibold bg-black text-white rounded-xl mx-5">Order Now</a>
                                         </div>
                                     {/* </a> */}
                                 </div>
@@ -201,7 +201,7 @@ function Store() {
                                                 <h2 className="md:text-3xl font-bold mb-3">Herbal Wild Tumeric powder</h2>
                                                 <p className="md:text-2xl font-semibold mb-3">Price: ₹200</p>
                                             </div>
-                                            <a href="/" className="border-none px-5 py-3 text-xl font-semibold bg-black text-white rounded-xl mx-5">Order Now</a>
+                                            <a href="/" className="border-none px-5 py-3 md:text-xl md:font-semibold bg-black text-white rounded-xl mx-5">Order Now</a>
                                         </div>
                                     {/* </a> */}
                                     {/* <a href='#' target="_blank"> */}
@@ -211,7 +211,7 @@ function Store() {
                                                 <h2 className="md:text-3xl font-bold mb-3">Wild Tumeric powder</h2>
                                                 <p className="md:text-2xl font-semibold mb-3">Price: ₹300</p>
                                             </div>
-                                            <a href="/" className="border-none px-5 py-3 text-xl font-semibold bg-black text-white rounded-xl mx-5">Order Now</a>
+                                            <a href="/" className="border-none px-5 py-3 md:text-xl md:font-semibold bg-black text-white rounded-xl mx-5">Order Now</a>
                                         </div>
                                     {/* </a> */}
                                     {/* <a href='#' target="_blank"> */}
@@ -221,7 +221,7 @@ function Store() {
                                                 <h2 className="md:text-3xl font-bold mb-3">Natural Face Tumeric powder</h2>
                                                 <p className="md:text-2xl font-semibold mb-3">Price: ₹300</p>
                                             </div>
-                                            <a href="/" className="border-none px-5 py-3 text-xl font-semibold bg-black text-white rounded-xl mx-5">Order Now</a>
+                                            <a href="/" className="border-none px-5 py-3 md:text-xl md:font-semibold bg-black text-white rounded-xl mx-5">Order Now</a>
                                         </div>
                                     {/* </a> */}
                                     {/* <a href='#' target="_blank"> */}
@@ -231,7 +231,7 @@ function Store() {
                                                 <h2 className="md:text-3xl font-bold mb-3">Pepper Tumeric powder</h2>
                                                 <p className="md:text-2xl font-semibold mb-3">Price: ₹300</p>
                                             </div>
-                                            <a href="/" className="border-none px-5 py-3 text-xl font-semibold bg-black text-white rounded-xl mx-5">Order Now</a>
+                                            <a href="/" className="border-none px-5 py-3 md:text-xl md:font-semibold bg-black text-white rounded-xl mx-5">Order Now</a>
                                         </div>
                                     {/* </a> */}
                                     {/* <a href='#' target="_blank"> */}
@@ -241,7 +241,7 @@ function Store() {
                                                 <h2 className="md:text-3xl font-bold mb-3">Tumeric powder</h2>
                                                 <p className="md:text-2xl font-semibold mb-3">Price: ₹300</p>
                                             </div>
-                                            <a href="/" className="border-none px-5 py-3 text-xl font-semibold bg-black text-white rounded-xl mx-5">Order Now</a>
+                                            <a href="/" className="border-none px-5 py-3 md:text-xl md:font-semibold bg-black text-white rounded-xl mx-5">Order Now</a>
                                         </div>
                                     {/* </a> */}
                                     {/* <a href='#' target="_blank"> */}
@@ -251,7 +251,7 @@ function Store() {
                                                 <h2 className="md:text-3xl font-bold mb-3">Pasu Tumeric powder</h2>
                                                 <p className="md:text-2xl font-semibold mb-3">Price: ₹300</p>
                                             </div>
-                                            <a href="/" className="border-none px-5 py-3 text-xl font-semibold bg-black text-white rounded-xl mx-5">Order Now</a>
+                                            <a href="/" className="border-none px-5 py-3 md:text-xl md:font-semibold bg-black text-white rounded-xl mx-5">Order Now</a>
                                         </div>
                                     {/* </a> */}
                                 </div>

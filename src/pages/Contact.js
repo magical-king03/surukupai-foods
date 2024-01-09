@@ -7,7 +7,7 @@ const Contact = () => {
             <div className="bg-black p-10">
                 <h1 className="text-5xl p-6 font-semibold text-center text-white">Contact Us</h1>
             </div>
-            <div className="grid md:grid-cols-2 p-[50px] md:pl-[150px]">
+            <div className="grid md:grid-cols-2 p-[10px] lg:p-[50px] lg:pl-[150px]">
                 <div>
                     <div>
                         <h1 className="text-3xl p-6 font-semibold">Contact Us</h1>
@@ -51,11 +51,30 @@ const Contact = () => {
                         </div>
                     </div>
                 </div>
-                <div>
+                <div className="hidden lg:block">
                     <div>
                         <h1 className="font-semibold text-3xl flex items-center justify-center p-6">Give your review here</h1>
                     </div>
-                    <div className="flex items-center justify-center border w-[500px] m-auto p-5 rounded-lg border-black">
+                    <div className="md:flex items-center justify-center border md:w-[500px] m-auto p-5 rounded-lg border-black">
+                        <form action="https://formsubmit.co/visweish80@gmail.com" method="POST">
+                            <p className="mt-3 font-semibold text-xl">Name</p><br /><input type="text" name="name" className="border border-black p-2 mx-4 rounded-lg w-[300px]" required />
+                            <br />
+                            <p className="mt-3 font-semibold text-xl">Email</p><br /><input type="email" name="email" className="border border-black p-2 mx-4 rounded-lg w-[300px]" required />
+                            <br />
+                            <p className="mt-3 font-semibold text-xl">Review</p><br />
+                            <textarea cols={10} rows={3} className="border border-black p-2 mx-4 rounded-lg w-[300px]"></textarea>
+                            <br />
+                            <div className="mt-5 flex items-center justify-center">
+                                <button type="submit" className="border-none px-5 py-3 text-xl font-semibold bg-black text-white rounded-xl">Send</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div className="lg:hidden">
+                    <div className="flex items-center justify-center m-5">
+                        <h1 className="font-semibold text-2xl">Give your review here</h1>
+                    </div>
+                    <div className="border border-black rounded-lg p-3 md:p-5 flex items-center justify-center m-auto">
                         <form action="https://formsubmit.co/visweish80@gmail.com" method="POST">
                             <p className="mt-3 font-semibold text-xl">Name</p><br /><input type="text" name="name" className="border border-black p-2 mx-4 rounded-lg w-[300px]" required />
                             <br />
